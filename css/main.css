@@ -677,6 +677,15 @@ button[class^="navbar"]:hover {
     font-weight: 500;
   }
 
+  .covid .lead {
+    font-size: 2rem;
+    font-weight: 500;
+    max-width: 600px;
+  }
+  .covid .text-sm {
+    font-weight: 500;
+  }
+
   .w-60 {
     margin: auto;
     width: 90%;
