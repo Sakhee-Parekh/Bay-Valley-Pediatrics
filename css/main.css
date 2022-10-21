@@ -561,7 +561,7 @@ button[class^="navbar"]:hover {
     from(rgba(149, 186, 247, 0.9)),
     to(rgba(81, 145, 236, 0.85))
   );
-  height: 700px;
+  height: 800px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
