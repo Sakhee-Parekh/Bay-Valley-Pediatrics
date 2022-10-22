@@ -60,6 +60,10 @@ button {
   border: none;
   cursor: pointer;
 }
+.is-now {
+  text-transform: lowercase;
+  font-size: 3rem;
+}
 .btn {
   padding: 0.9rem 4rem;
   border-radius: 3rem;
@@ -268,34 +272,6 @@ button[class^="navbar"]:hover {
   -ms-transform: translateX(10px);
   transform: translateX(10px);
 }
-.search-icon {
-  display: block;
-  width: 27px;
-  margin-right: 1rem;
-}
-.search-control::-webkit-input-placeholder {
-  color: var(--light-gray);
-}
-.search-control::-moz-placeholder {
-  color: var(--light-gray);
-}
-.search-control:-ms-input-placeholder {
-  color: var(--light-gray);
-}
-.search-control::-ms-input-placeholder {
-  color: var(--light-gray);
-}
-.search-control::placeholder {
-  color: var(--light-gray);
-}
-.search-control {
-  height: 27px;
-  width: 100%;
-  border-radius: 1.9rem;
-  border: 2px solid var(--light-gray);
-  padding: 0 1.5rem;
-}
-
 /* header inner */
 .header-inner {
   padding-top: 16rem;
@@ -715,7 +691,7 @@ button[class^="navbar"]:hover {
 
 @media (min-width: 768px) {
   .header-inner-left h1 {
-    font-size: 5.7rem;
+    font-size: 3.7rem;
   }
   .services-inner,
   .doc-panel-inner {
